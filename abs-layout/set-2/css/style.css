@@ -1,0 +1,49 @@
+body{
+	color: red;
+}
+
+.box {
+	width: 150px;
+	height: 300px;
+	border: 1px solid #000;
+}
+
+.box-one {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 10;
+	background: #fff;
+}
+
+.box-two {
+	width: 300px;
+	height: 150px;	
+	position: absolute;
+	top: 250px;
+	left: 350px;
+	z-index: 20;
+	background: #fff;
+}
+
+.box-three {
+	width: 700px;
+	height: 200px;		
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	z-index: 30;
+	background: #fff;
+}
+
+.box-four {
+	width: 200px;
+	height: 350px;		
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	z-index: 40;
+	background: #fff;
+}
